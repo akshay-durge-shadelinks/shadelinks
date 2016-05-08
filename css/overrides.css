@@ -1,0 +1,45 @@
+/* The override CSS adds additional styles to the ones present in the theme. */
+
+/* Removed sidebar, so remove the left padding. Also make provision for the header.*/
+#page-wrapper {
+ 	margin-top: 54px;
+    margin-left: 0;
+}
+
+#header {
+	height: 54px;
+	background-color: white;
+}
+
+.navbar-nav > li > a .label {
+	position: absolute;
+	top: 7px;
+	right: 3px;
+	display: block;
+	background: #ff5b57;
+	line-height: 12px;
+	font-weight: 300;
+	padding: .3em .6em;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px
+}
+
+.navbar-user img {
+	float: left;
+	width: 30px;
+	height: 30px;
+	margin: -5px 10px 0 0;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px
+}
+
+#header .navbar-header .navbar-brand img {
+	padding-right: 20px;
+}
+
+.nav > li > a {
+	padding-top: 17px;
+	padding-bottom: 17px;
+}
